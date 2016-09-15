@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <Manager className="com.amazonaws.services.dynamodb.sessionmanager.DynamoDBSessionManager"
+             createIfNotExist="true" />
+</Context>
